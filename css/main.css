@@ -1,0 +1,184 @@
+body {
+	padding-top: 50px;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #EDEDED;
+}
+section {
+	padding: 0;
+	margin: 0;
+}
+/**navigation**/
+nav {
+	height: 60px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 100;
+	padding-bottom: 5px;
+	background-color: #EDEDED;
+}
+nav > a {
+	font-weight: 700;
+	text-align: left;
+	text-decoration: none;
+	position: absolute;
+	left: 25px;
+
+}
+nav .logo {
+	float: left;
+	padding-left: 10px;
+	margin-top: 25px;
+}
+/**navigation bar links**/
+nav > ul {
+	position: absolute;
+	right: 25px;
+	top: 5px;
+}
+nav > ul > li {
+	display: inline-block;
+	padding: 0 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+}
+nav > ul > li > a {
+	color: #9B9E9F;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+nav > ul > li.active a {
+	color: #FF6760;
+}
+hr {
+	height: 2px;
+	border: none;
+	background-color: #B3B7B2;
+	padding: 0 10px;
+	margin: 35px 10px;
+}
+/**top header**/
+header span {
+	color: #FF6760;
+	padding-bottom: 0;
+}
+header {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+header img {
+	text-align: center;
+	height
+}
+.aw {
+	margin: 10px;
+	width: 100%;
+	height: 50px;
+}
+.aboutme {
+	float: left;
+	margin-left: 0;
+	width: 45%;
+
+}
+.mywork {
+	float: right;
+	margin-right: 0;
+	width: 50%;
+}
+.aw {
+	width: 99%;
+}
+.aw h1 {
+	color: #FF6760;
+	text-align: center;
+}
+.aw section {
+	display: inline-block;
+	padding: 45px 5px;
+}
+.showcase {
+	text-align: center;
+	padding: 50px 0;
+}
+.showcase .box {
+	display: inline-block;
+	width:10%;
+	text-align: center;
+	margin: 2% 4%;
+	padding-right: 20px;
+	background-color: #fff;
+	border-radius: 5%;
+}
+.showcase img {
+	height: 100%;
+	width: 112%;
+}
+.showcase p {
+	text-align: left;
+	background-color: #fff;
+	color: black;
+	font-weight: bold;
+}
+.box span {
+	color: #FF6760;
+	font-family: cursive;
+}
+.showcase h1 {
+	color: #FF6760;
+}
+
+form h1 {
+	margin-left: 25px;
+	color: #FF6760;
+}
+form > input,
+form > textarea {
+	margin-left: 24px;
+	margin-bottom: 14px;
+	margin-right: 20px;
+	display: block;
+	padding: 10px;
+	font-size: 25px;
+	border-radius: 16px;
+	width: 35%;
+}
+.socialmedia {
+	float: right;
+	height: 50px;
+	margin-right: 25px;
+	margin-top: 200px;
+	position: relative;
+}
+.socialmedia a {
+	display: inline-block;
+	background-color: #FF6760;
+	border-radius: 50%;
+	color: #2D2D2D;
+	margin-left: 40px;
+	text-decoration: none;
+}
+.socialmedia a i {
+	font-size: 30px;
+	padding: 5px;
+
+}
+footer {
+	background-color: #2D2D2D;
+	width: 100%;
+}
+div button {
+	color: #fff;
+	background-color: #2D2D2D;
+	width: 10%;
+	padding: 10px;
+	font-size: 25px;
+	margin: 5px;
+	margin-bottom: 10px;
+}
+footer button {
+	margin-left: 28px;
+}
